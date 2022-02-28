@@ -2,7 +2,15 @@ package LinkedList;
 
 public class LinkedList {
 
+    // static means all linked list share this
     public static Node head=null;
+    
+    // count for how many linked list created
+    public static int count = 0;
+    
+    // length of the linked list
+    private int length = 0;
+    
     public static void main(String[] Args){
         boolean result;
         appendNode(new Node(1));
