@@ -71,5 +71,7 @@ public class LOA {
         }
         return lastLargestIndex;
     }
+    //test
+    public void test (){}
 }
 
