@@ -15,13 +15,19 @@ public class StackByArray {
     public static void main(String[] Args) {
 //        myArray=new int[size];
         myStack myStack1 = new myStack(4);
+//        myStack myStack1 = new myStack();
         result = myStack1.push(1);
         result = myStack1.push(2);
         result = myStack1.push(3);
         result = myStack1.push(4);
+        result = myStack1.push(4);
         System.out.println("The Stack count now is: " + myStack1.count());
         result = myStack1.push(5);
         System.out.println("The Stack count now is: " + myStack1.count());
+        myStack1.showStack();
+        myStack1.delete(4);
+        myStack1.showStack();
+
         System.out.println("Stack pop value is: " + myStack1.pop());
         System.out.println("Stack pop value is: " + myStack1.pop());
         System.out.println("Stack pop value is: " + myStack1.pop());

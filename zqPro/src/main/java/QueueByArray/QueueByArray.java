@@ -19,9 +19,12 @@ public class QueueByArray {
         result=myQueue1.push(2);
         result=myQueue1.push(3);
         result=myQueue1.push(4);
+        myQueue1.showQueue();
         System.out.println("The Queue count now is: "+myQueue1.count());
         result=myQueue1.push(5);
         System.out.println("The Queue count now is: "+myQueue1.count());
+        myQueue1.showQueue();
+        myQueue1.delete(3);
         System.out.println("Queue pop value is: "+myQueue1.pop());
         System.out.println("The Queue count now is: "+myQueue1.count());
         System.out.println("Queue pop value is: "+myQueue1.pop());
